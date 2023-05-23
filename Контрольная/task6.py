@@ -1,0 +1,2 @@
+print(f'{int(input()):,}')
+
