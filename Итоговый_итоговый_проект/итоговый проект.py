@@ -12,9 +12,9 @@ def record_volume():
     f = open('exp.txt', 'w+')
     f.write(query)
     f.close()
-    if 'блокнот' in query:
+    if 'открой' or 'открой пожалуйста' or 'сизам открой' and  'блокнот' in query:
         os.system('C:/Windows/System32/notepad')
-    elif 'калькулятор' in query:
+    elif 'открой' or 'открой пожалуйста' or 'сизам открой' and  'калькулятор' in query:
         os.system('C:/Windows/System32/calc')
     
 
